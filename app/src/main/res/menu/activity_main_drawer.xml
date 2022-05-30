@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/ic_baseline_description_24"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/nav_Grocery_Stores"
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+            android:title="@string/menu_grocery" />
+        <item
+            android:id="@+id/nav_Gyms"
+            android:icon="@drawable/ic_baseline_directions_run_24"
+            android:title="@string/menu_gym" />
+        <item
+            android:id="@+id/nav_Parks"
+            android:icon="@drawable/ic_baseline_follow_the_signs_24"
+            android:title="@string/menu_park" />
+        <item
+            android:id="@+id/nav_Exercise"
+            android:icon="@drawable/ic_baseline_accessibility_new_24"
+            android:title="@string/menu_exercise" />
+        <item
+            android:id="@+id/nav_Feedback"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="@string/menu_feedback" />
+    </group>
+</menu>

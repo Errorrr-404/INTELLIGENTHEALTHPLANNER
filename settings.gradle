@@ -1,0 +1,2 @@
+rootProject.name = "INTELLIGENT HEALTH PLANNER"
+include ':app'
